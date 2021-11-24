@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="calc.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h2>SPLITTER</h2>
+        <div id="whitepage">
+         <div id="leftside"> <label>Bill</label><br>
+          <input type="text" id="billamnt" placeholder="0"><br><br>
+          <label>Select tip %</label><br>
+          <button id="5%"onclick="tip5()">5%</button>
+          <button id="10%"onclick="tip10()">10%</button>
+          <button id="15%"onclick="tip15()">15%</button><br><br>
+          <button id="20%"onclick="tip20()">20%</button>
+           <button id="25%"onclick="tip25()">25%</button>
+           <!-- <button onclick id="splbutton">custom</button><br><br> --><br><br>
+           <label>Number of people</label><br>
+           <input type="text"id="numpersons" placeholder="0">
+        </div>
+            <div id="rightside">
+                <label>Tip Amount</label>
+                <input type="text"  id="tipamnt" class="rgtbar"placeholder="0.00"></input><br><br><br>
+                <label>TOTAL</label>
+                <input type="text" id="total" class="rgtbar" placeholder="0.00"></input><br><br><br><br>
+                <label></label>
+                <button class="resultbutton" onclick="reset()">reset</button>
+
+                </div>
+        </div>
+
+    </div>
+</body>
+</html>
